@@ -12,7 +12,6 @@ pipeline {
     stage('Checkout Source') {
       steps {
         git 'https://github.com/myvelmurugan/playjenkins.git'
-        sh "sleep 600"
       }
     }
 
